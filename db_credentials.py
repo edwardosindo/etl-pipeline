@@ -1,25 +1,3 @@
-datawarehouse_name = ''
-
-# sql-server (target db, datawarehouse)
-datewarehouse_db_config = {
-    'Trusted_Connection': 'yes',
-    'TrustServerCertificate': 'yes',
-    'driver': '{ODBC Driver 18 for SQL Server}',
-    'server': '',
-    'database': '{}'.format(),
-    'autocommit': True,   
-}
-
-# sql-server (source db)
-sqlserver_db_config = [
-    {
-        'Trusted_Connection': 'yes',
-        'driver': '{ODBC Driver 17 for SQL Server}',
-        'server': '',
-        'database': '',
-        'autocommit': True,
-    }
-]
 
 # # mysql (source db)
 # mysql_db_config = [
